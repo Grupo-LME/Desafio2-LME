@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.carousel{
+    width: 60%;
+    margin: 0 auto;
+    height: 50vh;
+}
+.carousel-indicators{
+    bottom: 0;
+    background-color: #272727;
+    position: relative;
+}
+.carousel-control-prev{
+    background-color: #272727;
+    opacity: 1;
+    width: 50px;
+    position: absolute;
+    top: 200px;
+}
+.carousel-control-next{
+    background-color: #272727;
+    opacity: 1;
+    width: 50px;
+    position: absolute;
+    top: 200px;
+}
+.carousel-item img{
+    border-radius: 10px;
+}
